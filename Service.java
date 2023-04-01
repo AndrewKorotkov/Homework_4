@@ -15,7 +15,7 @@ public class Service {
 
     public void changeWheels(Car car, WheelSize wheelSize) {
         if (car != null && wheelSize != null && !wheelSize.equals(car.getWheelSize())) {
-            car.setWheelSize(wheelSize.ordinal());
+            car.setWheelSize(wheelSize);
         }
     }
 
