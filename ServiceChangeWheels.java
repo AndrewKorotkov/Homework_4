@@ -6,7 +6,7 @@ import com.roman.lis.hw.homework3.cars.model.enums.*;
 public class ServiceChangeWheels {
     public void changeWheels(Car car, WheelSize wheelSize) {
         if (car != null && wheelSize != null && !wheelSize.equals(car.getWheelSize())) {
-            car.setWheelSize(wheelSize.);
+            car.setWheelSize(wheelSize);
         }
     }
 }
